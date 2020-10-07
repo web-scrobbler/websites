@@ -21,7 +21,7 @@ const listFile = `${resDir}/connectors.json`;
 async function main(args) {
 	const latestTag = args[2];
 
-	if (latestTag === undefined) {
+	if (!latestTag) {
 		console.error('You must provide version as an argument')
 		process.exit(1);
 	}
