@@ -10,15 +10,15 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.6.3",
-    "eslint": "^7.14.0",
-    "eslint-config-web-scrobbler": "^2.0.2",
-    "node-fetch": "^2.6.7",
-    "prettier": "^2.2.0",
-    "prettier-config-web-scrobbler": "^0.1.0",
-    "tsx": "^3.12.6"
+    "eslint": "8.57.0",
+    "@web-scrobbler/eslint-config": "3.1.1",
+    "node-fetch": "3.3.2",
+    "prettier": "3.3.3",
+    "prettier-config-web-scrobbler": "0.1.0",
+    "tsx": "4.19.0"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=20"
   },
   "license": "MIT",
   "eslintConfig": {
