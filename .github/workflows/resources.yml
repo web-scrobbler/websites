@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "${{ steps.get-node-version.outputs.NODE_VERSION }}"
+          node-version: '${{ steps.get-node-version.outputs.NODE_VERSION }}'
 
       - name: Install dependencies
         run: npm install
