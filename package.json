@@ -24,5 +24,10 @@
   "eslintConfig": {
     "extends": "web-scrobbler"
   },
-  "prettier": "prettier-config-web-scrobbler"
+  "prettier": "prettier-config-web-scrobbler",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:prettier": "prettier --check .",
+    "format": "prettier --write ."
+  }
 }

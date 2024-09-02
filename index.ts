@@ -16,11 +16,11 @@ const resDir = 'resources';
 const moduleFile = 'connectors.ts';
 const listFile = `${resDir}/connectors.json`;
 
-async function main(args:string[]) {
+async function main(args: string[]) {
 	const latestTag = args.at(-1);
 
 	if (!latestTag) {
-		console.error('You must provide version as an argument')
+		console.error('You must provide version as an argument');
 		process.exit(1);
 	}
 
@@ -56,7 +56,7 @@ async function dumpConnectors() {
 	const connectors = (await import(`./${moduleFile}`)).default as any[];
 
 	const labelArray = connectors.map((entry) => entry.label);
-	const contents = JSON.stringify(labelArray, null, 2);
+	const contents = JSON.stringify(labelArray, null, 2) + '\n';
 
 	if (!fs.existsSync(resDir)) {
 		mkdir(resDir);
