@@ -127,7 +127,7 @@
   "Radio JAZZ",
   "WO Streaming",
   "Listen Live",
-  "Planet Radio",
+  "Rayo",
   "Roxx Radio",
   "ListenOnRepeat",
   "Duckburg Radio",
@@ -182,7 +182,6 @@
   "KEXP",
   "Hotmixradio.fr",
   "Aphex Twin",
-  "Resident Advisor",
   "Zachary Seguin Music",
   "Joox",
   "Musish",
@@ -271,7 +270,7 @@
   "Synology",
   "Ragya",
   "CodeRadio",
-  "Dash Radio",
+  "LITT Live",
   "Niconico",
   "Звук",
   "Navidrome",
@@ -383,5 +382,11 @@
   "weareone.fm",
   "Bollerwagen",
   "МТС Музыка",
-  "ChirpRadio"
+  "ChirpRadio",
+  "InstantAudio",
+  "Basspistol Radio",
+  "RadioFreeFedi",
+  "MyTuner",
+  "Mirlo",
+  "Simulator Radio"
 ]
